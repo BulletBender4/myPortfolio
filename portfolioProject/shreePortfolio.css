@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(79, 14, 112);
+    color: white;
+}
+
+.navBar {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(190, 108, 231);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLeft {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLeft .navImg {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navRight {
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navRight ul {
+    list-style-type: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navRigContent {
+    text-decoration: none;
+    color: white;
+}
+
+.navRight ul li a:hover {
+    font-style: Bold;
+    font-size: 1.04rem;
+}
+
+.first-main-sec {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+
+.leftSec {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.text {
+    font-size: 2.4rem;
+    line-height: 50px;
+}
+
+.color-highlight {
+    color: black;
+    text-shadow: 2px 2px 6px rgb(102, 0, 255);
+}
+
+.rightSec {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSectionImage {
+    width: 35vw;
+    height: 38vh;
+    margin-right: 80px;
+    filter: drop-shadow(3px 3px 8px gold);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+
+.sec-main-sec {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+}
+
+.question {
+    top: 50px;
+}
+
+.caption {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 1.05rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 90px;
+}
+
+.heading::first-letter {
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.heading span {
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.horLine {
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    background-color: rgb(205, 186, 220);
+    display: flex;
+    justify-content: space-between;
+}
+
+.verLine {
+    width: 2px;
+    height: 100px;
+    background-color: white;
+}
+
+
+
+.secondSecImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: -35px;
+    left: -15px;
+}
+
+.title {
+    position: relative;
+    top: 80px;
+    right: 80px;
+    width: 190px;
+    font-size: 1.4rem;
+    color: rgb(237, 9, 9);
+    text-align: center;
+    justify-content: center
+}
+
+.description {
+    position: relative;
+    top: 80px;
+    right: 95px;
+    width: 210px;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+
+
+.thi-main-sec {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+.vrLines {
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+    border-top-color: rgb(79, 14, 112);
+    border-bottom-color: rgb(79, 14, 112);
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hrLines {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hrLines:nth-of-type(2n) {
+    align-self: flex-end;
+}
+
+.thirdSecImg {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 10px;
+}
+
+.thirdSecImg:nth-of-type(2n) {
+    align-self: flex-end;
+}
+
+.group1 {
+    align-self: flex-end;
+    position: relative;
+    bottom: 15px;
+    left: 223px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group2 {
+    position: relative;
+    right: 210px;
+    bottom: 20px;
+    display: flex;
+}
+
+.cluster2 {
+    width: 200px;
+}
+
+.checked {
+    color: orange;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.fouSecHeading {
+    margin-left: 90px;
+}
+
+.fou-main-sec {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.addBtn {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(90deg, rgb(36, 14, 0) 0%, rgb(39, 69, 103) 14%, rgb(125, 202, 218) 100%);
+    border-radius: 50%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBtn:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(221, 183, 13));
+}
+
+.xAxis {
+    width: 85%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 9px;
+}
+
+.yAxis {
+    width: 20px;
+    height: 85%;
+    background-color: white;
+    position: relative;
+    right: 87px;
+}
+
+.footer {
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
+.leftLogo {
+    width: 20%;
+    /* height: 40vh; */
+    /* position: relative; */
+    /* align-self: center; */
+}
+
+.completeDetails {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innerDetails {
+    list-style: none;
+    color: white;
+}
+
+.footerLogoImg img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.copyrights {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightContent {
+    color: #bcec1e;
+}
+
+
+.mainNav {
+    text-decoration: none;
+    color: white;
+}
+
+.footerFullContent {
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

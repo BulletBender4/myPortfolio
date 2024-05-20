@@ -1,0 +1,367 @@
+/* display: flex
+flex-direction:
+justify-content:
+align-item:
+flex-wrap:
+align-content:
+align-self: */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 43);
+    color: white;
+}
+
+nav ul {
+    /* margin: 0;
+            padding: 0; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.2rem;
+    color: rgb(183, 159, 243);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(84, 51, 141);
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2px;
+}
+
+nav div.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    ;
+}
+
+.firstSection>div {
+    /* display: flex; */
+    /* margin: 30px 0; */
+    width: 40%;
+    font-size: 2.5rem;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.rightSection img {
+    max-width: 50%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    margin: 30px 0;
+    width: 35%;
+}
+
+#element {
+    color: blueviolet;
+}
+
+hr {
+    border: 0px;
+    background-color: white;
+    box-shadow: 2px 2px 5px whitesmoke;
+    height: 2px;
+    margin: 50px 110px 30px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    text-decoration: underline;
+
+
+    /* margin-top: 0; */
+}
+
+.secondSection h1::first-letter {
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+
+.secondSection h1 span {
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+
+.secondSection {
+    width: 80vw;
+    margin: auto;
+    height: 50vw;
+    margin-bottom: 50px;
+}
+
+#text-gray {
+    color: gray;
+    margin-bottom: 0;
+
+}
+
+.horizontalLine {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 100px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verticalLine {
+    background-color: white;
+    width: 2px;
+    height: 70px;
+
+
+}
+
+.verticalLine img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: -67px;
+    left: -12px;
+}
+
+.left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 1s 0.2s;
+}
+
+.left img:hover {
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease-out 0.3s;
+}
+
+.left span:hover {
+    font-size: 1.7rem;
+    color: blueviolet;
+}
+
+.verticalLine .title {
+    width: 200px;
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 25px;
+    right: 55px;
+    text-align: left;
+    color: grey;
+}
+
+.verticalLine .desc {
+    box-shadow: 2px 2px 6px white;
+    width: 150px;
+    position: relative;
+    bottom: 25px;
+    right: 55px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 6px white;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(37, 50, 88);
+    padding: 40px 0;
+    flex-direction: column;
+}
+
+.footerTop {
+
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.image {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+/* .bottom {
+            /* width: 800px; */
+/* color: grey;
+        position: relative;
+        top: 130px;
+        right: 500px
+        } */
+.footerBottom {
+    text-align: center;
+    padding: 60px 0 0 0;
+    color: gray
+}
+
+.footerFirst {
+    font-size: 1.4rem;
+}
+
+.thirdSection {
+    margin: 120px;
+
+
+}
+
+.thirdSection h5 {
+    color: grey;
+    font-size: 16px;
+
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.mainContent img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.rightImage {
+    position: relative;
+    bottom: 60px;
+    /* left: 550px; */
+}
+
+.leftImage {
+    position: relative;
+    bottom: 60px;
+    left: 700px
+}
+
+.mainContent div {
+
+    width: 45%;
+    height: 700px;
+
+}
+
+.verLineSecThree {
+    background-color: white;
+    width: 2px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainContent .rightSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.horLineSecThree {
+    background-color: blueviolet;
+    width: 50vw;
+    height: 2px;
+    /* display: flex;
+            justify-content: space-between; */
+}
+
+.rightAside {
+
+    position: relative;
+    right: 720px;
+    top: 100px
+}
+
+.rightImage+figcaption {
+    position: relative;
+    bottom: 140px;
+    right: 450px;
+    margin-right: 0;
+}
+
+.leftImage+figcaption {
+    position: relative;
+    bottom: 150px;
+    left: 700px;
+}
+
+.checked {
+    color: orange;
+}
+
+figcaption div {
+    display: inline-block;
+}
+
+.close {
+    position: relative;
+    left: 150px;
+    margin: 0;
+}
+
+.close1 {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.different {
+    position: relative;
+    top: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+    border: 2px solid white;
+    overflow: hidden;
+    outline: none;
+    border-radius: 5%;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    border: none;
+    box-shadow: 2px 2px 6px rgba(142, 202, 240, 0.404);
+}
+
+footer {
+    margin-bottom: 0;
+}

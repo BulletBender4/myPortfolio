@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 43);
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(156, 67, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarToggle {
+    background-color: green;
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: blueviolet;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right ul {
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.effect:hover {
+    font-style: italic;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 6px black;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+.leftSection {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection {
+    width: 50%;
+    height: 100%;
+    filter: drop-shadow(3px 3px 8px gold)
+}
+
+.rightSectionImage {
+    width: 47vw;
+    height: 47vh;
+}
+
+.text {
+    font-size: 2.4rem;
+    line-height: 50px;
+}
+
+.text-color {
+    color: blueviolet;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 90%;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.secondSection {
+    margin: auto;
+    width: 80%;
+    height: 700px;
+
+
+}
+
+.horizontalLine {
+    width: 100%;
+    height: 2px;
+    margin-top: 130px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verticalLines {
+    width: 2px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: -15px;
+}
+
+.title {
+    position: relative;
+    top: 135px;
+    right: 47px;
+    width: 130px;
+    font-size: 1.6rem;
+    color: grey;
+    text-shadow: 2px 2px 6px green;
+}
+
+.description {
+    position: relative;
+    top: 160px;
+    right: 50px;
+    width: 190px;
+    /* box-shadow: 2px 2px 6px white; */
+    text-shadow: 3px 3px 6px white;
+}
+
+.question {
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.work {
+    font-size: 1.9rem;
+}
+
+.work::first-letter {
+    font-size: 2.7rem;
+    color: blueviolet;
+}
+
+.work span {
+    font-size: 2.7rem;
+    color: blueviolet;
+}
+
+.thirdSection {
+    margin: auto;
+    width: 90vw;
+    height: 700px;
+
+}
+
+.verLines {
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    border-top-color: rgb(2, 2, 43);
+    border-bottom-color: rgb(2, 2, 43);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+hr:nth-of-type(3) {
+    margin-top: 150px;
+}
+
+.horLines {
+    width: 70%;
+    height: 2px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.horLines:nth-of-type(2n) {
+    margin-left: 310px;
+}
+
+.thirdSecImg {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.horLines:hover {
+    background-image: linear-gradient(to right top, #cb4897, #dc485f, #cc622b, #a57e00, #6d9317);
+}
+
+
+
+.evenClasses {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+.close2 {
+    width: 180px;
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+}
+
+.oddClasses {
+    align-self: flex-end;
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checked {
+    color: orange;
+}
+
+.heading {
+    margin-left: 100px;
+}
+
+.fourthSection {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 599px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    /* filter: drop-shadow(30px 10px 4px #4444dd); */
+}
+
+
+.addProjectButton {
+    width: 200px;
+    height: 200px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 37, 75, 1) 14%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 50%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.addProjectButton:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.xAxis {
+    width: 80%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+}
+
+.yAxis {
+    width: 20px;
+    height: 70%;
+    background-color: white;
+    position: relative;
+    right: 80px;
+}
+
+/*  */
+.foot {
+    width: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.footerDetail {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.details {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.myList li {
+    list-style: none;
+    color: white;
+}
+
+.copyrights {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myList li a {
+    text-decoration: none;
+    color: white;
+}
+
+.images img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.copyrightContent {
+    color: #cb4897;
+}
+
+
+/*  */
+
+.bodyToggle {
+
+    background-color: #cc622b;
+}
+
+.footToggle {
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+    /* background: linear-gradient(90deg, rgba(185, 87, 51, 1) 0%, rgba(90, 84, 155, 1) 52%, rgba(185, 87, 51, 1) 100%); */
+}
+
+/* .toggleMode {
+    width: 90px;
+    text-shadow: ;
+} */
+
+.form-switch {
+    width: 100px;
+    display: flex;
+}
+
+.form-check-label {
+    align-self: flex-start;
+}
